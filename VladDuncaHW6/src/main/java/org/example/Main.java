@@ -14,8 +14,6 @@ public class Main
 
         phone.addContact("2", "second phone number", "second first name", "second last name");
 
-// adding contacts won't work unless the phone numbers are numerical
-
         phone.getFirstContact();
 
         phone.getLastContact();
