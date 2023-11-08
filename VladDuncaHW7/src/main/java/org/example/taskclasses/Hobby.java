@@ -40,4 +40,9 @@ public class Hobby {
     public void setAddressList(List<Address> addressList) {
         this.addressList = addressList;
     }
+    public void printCountries(){
+        for (Address address:addressList){
+            System.out.print(address.getCountry() + " ");
+        }
+    }
 }

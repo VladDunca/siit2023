@@ -75,5 +75,10 @@ public class Main {
         }
 
         Map<Person, List<Hobby>> personHobbyMap = new HashMap<>(Map.of(person1, person1hobbyList, person2, person2hobbyList, person3, person3hobbyList));
+        for (Hobby hobby:person3hobbyList){
+            System.out.print(hobby.getName() + " Countries: ");
+            hobby.printCountries();
+            System.out.println();
+        }
     }
 }
