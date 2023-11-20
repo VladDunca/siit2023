@@ -2,10 +2,8 @@ package org.example;
 
 import org.example.samsung.SamsungGalaxy6;
 
-public class Main
-{
-    public static void main( String[] args )
-    {
+public class Main {
+    public static void main(String[] args) {
 //        Phone phone= new Samsung(); // shouldn't compile
 
         Phone phone = new SamsungGalaxy6();
