@@ -31,6 +31,5 @@ public class Main {
         phone.call("second phone number");
 
         phone.viewHistory();
-
     }
 }
